@@ -14,6 +14,8 @@ const borrowalRouter = require("./routes/borrowalRouter")
 const genreRouter = require("./routes/genreRouter") 
 const userRouter = require("./routes/userRouter") 
 const reviewRouter = require("./routes/reviewRouter")
+// const dashboardRouter = require('./routes/dashboardRouter');
+// app.use('/api/dashboard', dashboardRouter);
 
 // Configure dotenv for environment variables in production
 if (process.env.NODE_ENV !== "production") {

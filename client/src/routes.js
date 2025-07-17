@@ -19,8 +19,8 @@ export default function Router() {
       path: "/",
       element: <LibraryApp />,
       children: [
-        { element: <Navigate to="/dashboard" />, index: true },
-        { path: "dashboard", element: <DashboardAppPage /> },
+        // { element: <Navigate to="/dashboard" />, index: true },
+        // { path: "dashboard", element: <DashboardAppPage /> },
         { path: "authors", element: <AuthorPage /> },
         { path: "books", element: <BookPage /> },
         { path: "borrowals", element: <BorrowalPage /> },

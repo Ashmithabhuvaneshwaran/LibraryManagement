@@ -31,7 +31,13 @@ import BorrowalListHead from "./BorrowalListHead";
 import BorrowalForm from "./BorrowalForm";
 import BorrowalsDialog from "./BorrowalDialog";
 import { applySortFilter, getComparator } from "../../../utils/tableOperations";
+// import { apiUrl, methods, routes } from "../../../constants";
 import { apiUrl, methods, routes } from "../../../constants";
+
+
+
+
+
 
 // ----------------------------------------------------------------------
 
@@ -128,20 +134,51 @@ const BorrowalPage = () => {
       });
   }
 
+  // const deleteBorrowal = () => {
+  //   axios.delete(apiUrl(routes.BORROWAL, methods.PUT, selectedBorrowalId))
+  //     .then((response) => {
+  //       toast.success("Borrowal deleted");
+  //       handleCloseDialog();
+  //       handleCloseMenu();
+  //       console.log(response.data);
+  //       getAllBorrowals();
+  //     })
+  //     .catch((error) => {
+  //       console.log(error);
+  //       toast.error("Something went wrong, please try again")
+  //     });
+  // }
   const deleteBorrowal = () => {
-    axios.delete(apiUrl(routes.BORROWAL, methods.PUT, selectedBorrowalId))
-      .then((response) => {
-        toast.success("Borrowal deleted");
-        handleCloseDialog();
-        handleCloseMenu();
-        console.log(response.data);
-        getAllBorrowals();
-      })
-      .catch((error) => {
-        console.log(error);
-        toast.error("Something went wrong, please try again")
-      });
-  }
+  axios.delete(apiUrl(routes.BORROWAL, methods.DELETE, selectedBorrowalId))
+    .then((response) => {
+      toast.success("Borrowal deleted");
+      handleCloseDialog();
+      handleCloseMenu();
+      console.log(response.data);
+      getAllBorrowals();
+    })
+    .catch((error) => {
+      console.log(error);
+      toast.error("Something went wrong, please try again");
+    });
+};
+  const handleReturnBook = (id) => {
+  const url = apiUrl(routes.BORROWAL, "return", id);
+  console.log("Return API URL:", apiUrl(routes.BORROWAL, "return", id));
+// 👈 Add this line to see the actual URL
+
+  axios.put(url)
+    .then((response) => {
+      toast.success("Book returned successfully");
+      getAllBorrowals();
+    })
+    .catch((error) => {
+      console.log("Return API Error:", error); // Optional but helpful
+      toast.error("Error returning book");
+    });
+};
+
+
 
   const getSelectedBorrowalDetails = () => {
     const selectedBorrowals = borrowals.find((element) => element._id === selectedBorrowalId)
@@ -299,9 +336,17 @@ const BorrowalPage = () => {
       <MenuItem sx={{color: 'error.main'}} onClick={handleOpenDialog}>
         <Iconify icon={'eva:trash-2-outline'} sx={{mr: 2}}/>
         Delete
-      </MenuItem>
-    </Popover>
+      </MenuItem>    
+       <MenuItem sx={{ color: 'success.main' }} onClick={() => {
+          handleReturnBook(selectedBorrowalId);
+          handleCloseMenu();
+        }}>
+          <Iconify icon={'eva:checkmark-circle-2-outline'} sx={{ mr: 2 }} />
+          Return
+        </MenuItem>
 
+    </Popover>
+      
     <BorrowalForm isUpdateForm={isUpdateForm} isModalOpen={isModalOpen} handleCloseModal={handleCloseModal}
                   id={selectedBorrowalId} borrowal={borrowal} setBorrowal={setBorrowal}
                   handleAddBorrowal={addBorrowal} handleUpdateBorrowal={updateBorrowal}/>
