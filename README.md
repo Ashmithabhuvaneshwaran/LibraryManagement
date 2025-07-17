@@ -99,18 +99,5 @@ Edit
 📸 Gallery
 
 
-src="https://github.com/user-attachments/assets/1237928e-2567-45f4-9569-8758ffae8250"
-
-src="https:/<img width="1920" height="1080" alt="Screenshot 2025-07-17 154943"
-
-src="https://github.com/user-attachments/assets/13796efb-606d-4d6f-9544-7771ee7b6848" 
-
-src="https://github.com/user-attachments/assets/e4dfd73a-d204-4cd1-999c-a7b7ae011378" 
-
-src="https://github.com/user-attachments/assets/2eea14bf-ba97-4dad-8ed4-d52b46a5ac9e" 
-
-src="https://github.com/user-attachments/assets/82b8a85c-175c-4f06-840f-7ef02b8ac856" 
-
-src="https://github.com/user-attachments/assets/b30b471d-8836-443b-8761-8c2a7b01bafe" 
 
 
