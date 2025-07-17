@@ -69,7 +69,7 @@ MongoDB Atlas or Local instance
 bash
 Copy
 Edit
-git clone https://github.com/AshmithaBhuvaneshwaran/LibraryManagement.git
+git clone https://github.com/Ashmithabhuvaneshwaran/LibraryManagement.git
 cd LibraryManagement
 npm install
 npm start
