@@ -78,26 +78,47 @@ Password: admin123
 📂 File Structure
 bash
 Copy
-Edit
-.
-├── client/
-│   ├── public/
-│   └── src/
-│       ├── sections/
-│       ├── hooks/
-│       ├── App.jsx
-│       ├── index.js
-│       └── routes.js
-├── server/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   └── index.js
-├── .env
-├── package.json
-└── README.md
+      Edit
+      .
+      ├── client/
+      │   ├── public/
+      │   └── src/
+      │       ├── sections/
+      │       ├── hooks/
+      │       ├── App.jsx
+      │       ├── index.js
+      │       └── routes.js
+      ├── server/
+      │   ├── controllers/
+      │   ├── models/
+      │   ├── routes/
+      │   └── index.js
+      ├── .env
+      ├── package.json
+      └── README.md
+
+
+
 📸 Gallery
 
+<img width="1035" height="635" alt="Screenshot 2025-06-06 022213" src="https://github.com/user-attachments/assets/c05b07ee-f1f6-4a04-ad0b-fd7787b0e545" />
 
 
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-17 154848" src="https://github.com/user-attachments/assets/3995c289-406c-46b1-bcdb-072a75c6d56f" />
+
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-17 154910" src="https://github.com/user-attachments/assets/80af98c0-a908-44b0-9ee2-dfcae4311c33" />
+
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-17 154927" src="https://github.com/user-attachments/assets/5674335d-234a-4975-8304-0f49f49bb6ce" />
+
+
+<img width="1920" height="1080" alt="Screenshot 2025-06-06 082244" src="https://github.com/user-attachments/assets/0333b886-b314-49a4-aa47-861879823d3f" />
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-17 160052" src="https://github.com/user-attachments/assets/1b7e5231-3649-4d60-9e71-139dee8730fc" />
+
+
+
+<img width="1920" height="1080" alt="Screenshot 2025-07-17 160200" src="https://github.com/user-attachments/assets/064ed7d0-2572-488c-b2d3-06c0cd57f1ea" />
 
