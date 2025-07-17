@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot 2025-07-16 180815" src="https://github.com/user-attachments/assets/dd9d62de-5c70-478d-a49b-fffbeff0582b" />Library Management App
+Library Management App
 Current version: v1.0
 
 A fullstack Library Management System built using the MERN stack (MongoDB, Express, React, Node.js) with user roles for both librarians and members.
@@ -8,6 +8,7 @@ A fullstack Library Management System built using the MERN stack (MongoDB, Expre
 This application allows both librarians and members to manage and interact with a digital library system.
 
 Librarians can:
+
 
 Create, read, update, and delete:
 
@@ -117,6 +118,7 @@ Copy
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-17 154943" src="https://github.com/user-attachments/assets/19b9d373-52a3-4cac-9810-4496a54034e8" />
 
+<img width="1920" height="1080" alt="Screenshot 2025-06-06 082853" src="https://github.com/user-attachments/assets/feb78709-8a22-4c68-ab30-d5964d2cc8f0" />
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-16 180815" src="https://github.com/user-attachments/assets/86774b65-79b5-42df-8b24-4c13a6239e2d" />
 
