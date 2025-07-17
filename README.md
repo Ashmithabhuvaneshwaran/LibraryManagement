@@ -120,5 +120,4 @@ Copy
 
 
 
-<img width="1920" height="1080" alt="Screenshot 2025-07-17 160200" src="https://github.com/user-attachments/assets/064ed7d0-2572-488c-b2d3-06c0cd57f1ea" />
 
