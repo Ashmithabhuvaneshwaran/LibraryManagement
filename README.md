@@ -113,8 +113,10 @@ Copy
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-17 154927" src="https://github.com/user-attachments/assets/5674335d-234a-4975-8304-0f49f49bb6ce" />
 
+<img width="1478" height="547" alt="Screenshot 2025-07-17 160113" src="https://github.com/user-attachments/assets/8ae5213f-d2a7-4c1d-b2e3-0fb577cdefff" />
 
-<img width="1920" height="1080" alt="Screenshot 2025-06-06 082244" src="https://github.com/user-attachments/assets/0333b886-b314-49a4-aa47-861879823d3f" />
+<img width="1920" height="1080" alt="Screenshot 2025-07-17 154943" src="https://github.com/user-attachments/assets/19b9d373-52a3-4cac-9810-4496a54034e8" />
+
 
 <img width="1920" height="1080" alt="Screenshot 2025-07-17 160052" src="https://github.com/user-attachments/assets/1b7e5231-3649-4d60-9e71-139dee8730fc" />
 
